@@ -3,13 +3,7 @@ from discord import default_permissions
 from bot_functions import *
 import os
 
-intents = discord.Intents.default()
-intents.messages = True
-intents.members = True
-intents.guilds = True
-intents.guild_messages = True
-intents.message_content = True
-bot = discord.Bot(intents=intents, members = True, guilds = True, messages = True, guild_messages = True, message_content = True)
+bot = discord.Bot(intents=intents.all())
 
 
 # loading all cogs
@@ -23,4 +17,4 @@ async def on_ready():
 
 
 
-bot.run('MTAyMDYzMDU3Mzg0MjE4MjIxNQ.GA-vG5.ZxhWBlxFcI5RIigrBJfBtGUddo883Xr7GpLaxo')
+bot.run('PUT YOUR TOKEN HERE')
