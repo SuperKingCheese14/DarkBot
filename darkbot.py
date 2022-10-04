@@ -23,4 +23,4 @@ async def on_ready():
 
 
 
-bot.run('MTAyMDYzMDU3Mzg0MjE4MjIxNQ.GA-vG5.ZxhWBlxFcI5RIigrBJfBtGUddo883Xr7GpLaxo')
+bot.run('TOKEN-HERE')
